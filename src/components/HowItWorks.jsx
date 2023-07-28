@@ -7,7 +7,7 @@ export default function HowItWorks() {
     return (
         <section className='py-24 bg-white overflow-hidden' id='how-it-works'>
           <div className='container px-4 mx-auto'>
-            <div className='max-w-xl text-center mx-auto mb-20'>
+            <div className='max-w-xl text-center mb-20'>
               <h2 className='font-heading mb-5 text-6xl tracking-tighter'>
               Embark on Your Success Journey with Pathio
               </h2>
@@ -15,8 +15,8 @@ export default function HowItWorks() {
                 Navigate Life's Crossroads with Confidence. Pathio Empowers Creative Spirits Like You to Triumph Over Challenges and Transitions, Leading to Unmatched Success and Fulfillment.
                 </p> */}
             </div>
-            <div className='flex flex-wrap -m-7 mb-14 mx-auto'>
-              <div className='w-full md:w-1/3 p-7'>
+            <div className='flex flex-col md:flex-row items-center justify-center mb-14'>
+              <div className='w-full md:w-1/3 p-7 flex justify-center'>
                 <div className='max-w-xs flex flex-col text-center items-center justify-center'>
                   <img
                     className='mb-10'
@@ -31,7 +31,7 @@ export default function HowItWorks() {
                   </p>
                 </div>
               </div>
-              <div className='w-full md:w-1/3 p-7'>
+              <div className='w-full md:w-1/3 p-7 flex justify-center'>
                 <div className='max-w-xs flex flex-col text-center items-center justify-center'>
                   <img
                     className='mb-10'
@@ -46,7 +46,7 @@ export default function HowItWorks() {
                   </p>
                 </div>
               </div>
-              <div className='w-full md:w-1/3 p-7'>
+              <div className='w-full md:w-1/3 p-7 flex justify-center'>
                 <div className='max-w-xs flex flex-col text-center items-center justify-center'>
                   <img
                     className='mb-10'
