@@ -1,5 +1,5 @@
 import { TWITTER_URL } from "../consts";
-import Logo from "../images/logo.png";
+// import Logo from "../images/logo.png";
 
 
 export default function Footer() {
