@@ -5,9 +5,16 @@ import HeroSection from '../components/HeroSection.jsx';
 import HowItWorks from '../components/HowItWorks.jsx';
 import CallToAction from "../components/CallToAction.jsx";
 import Footer from "../components/Footer.jsx";
+import BaseHead from '../components/BaseHead.astro';
+import {SITE_TITLE, SITE_DESCRIPTION} from "../consts.js";
 ---
 
-<Layout title="Welcome to Astro.">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
 	<main class="overflow-hidden bg-white">
 		<NavBar client:load />
 		<HeroSection />
@@ -15,4 +22,5 @@ import Footer from "../components/Footer.jsx";
 		<CallToAction />
 		<Footer />
 	</main>
-</Layout>
+	</body>
+</html>
