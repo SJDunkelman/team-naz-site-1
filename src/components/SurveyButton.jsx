@@ -1,10 +1,17 @@
-import PopupButton from '@typeform/embed-react'
+import React from "react";
+import pkg from '@typeform/embed-react';
+const { PopupButton } = pkg;
 
 
-export default function SurveyButton(){
+export default function SurveyButton() {
     return (
-        <PopupButton id="y6r8249g" style={{ fontSize: 20 }} className="inline-block mx-auto px-3 py-2 text-white font-semibold tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200">
-        Match now
-      </PopupButton>
+      <p>
+          <PopupButton
+            id='y6r8249g'
+            className='px-4 py-2 rounded-xl text-lg font-medium bg-blue hover:bg-[#4d1cef] transition ease-in-out duration-200 text-white w-min whitespace-nowrap'
+          >
+            Get Started Now
+          </PopupButton>
+        </p>
     )
 }
