@@ -1,16 +1,16 @@
-import pkg from '@typeform/embed-react';
-const { PopupButton } = pkg;
+
 
 
 export default function SurveyButton() {
     return (
-      <p>
-          <PopupButton
-            id='y6r8249g'
-            className='px-4 py-2 rounded-xl text-lg font-medium bg-indigo-500 hover:bg-indigo-600 transition ease-in-out duration-200 text-white w-min whitespace-nowrap'
+      <div>
+          <a href="https://sdpgu3ul7tl.typeform.com/to/y6r8249g"
+            target="_blank"
+            rel="noreferrer"
+            className='px-4 py-3 rounded-xl text-lg font-medium bg-indigo-500 hover:bg-indigo-600 transition ease-in-out duration-200 text-white w-min whitespace-nowrap'
           >
             Match with your coach
-          </PopupButton>
-        </p>
+          </a>
+        </div>
     )
 }

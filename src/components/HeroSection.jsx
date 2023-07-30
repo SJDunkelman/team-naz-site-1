@@ -14,7 +14,10 @@ export default function HeroSection(){
           <p className='mb-10 max-w-xl mx-auto'>
           Unlock your potential with Pathio. Our platform connects you with the right coach tailored to your needs, helping you take your next step with confidence. 
           </p>
-          <SurveyButton />
+          <div className="my-8">
+            <SurveyButton />
+          </div>
+          
           <p className='mt-4 mb-20 text-gray-600 text-sm tracking-tight'>
             First session for free
           </p>
