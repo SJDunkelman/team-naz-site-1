@@ -1,4 +1,4 @@
-import { PopupButton } from '@typeform/embed-react'
+import PopupButton from '@typeform/embed-react'
 
 
 export default function SurveyButton(){
