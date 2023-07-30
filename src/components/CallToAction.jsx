@@ -5,6 +5,7 @@ import AvatarImage4 from "../images/avatar4.jpg";
 import AvatarImage5 from "../images/avatar5.jpg";
 import EmptyAvatarImage from "../images/empty-avatar.png";
 import BackgroundGradientImage from "../images/BackgroundGradientImage.jpg"
+import SurveyButton from "./SurveyButton.jsx";
 
 
 export default function CallToAction(){
@@ -14,18 +15,13 @@ export default function CallToAction(){
             <div className='flex flex-wrap lg:items-center -m-8'>
               <div className='w-full md:w-1/2 p-8'>
                 <div className='max-w-xl'>
-                  <h2 className='font-heading mb-6 text-6xl text-gray-700 tracking-tighter'>
-                  Amplify Your Journey's Potential with Pathio
+                  <h2 className='font-heading mb-6 text-5xl text-gray-700 tracking-tighter'>
+                  "I was struggling to grow in my current position and felt like I hit the glass ceiling. I found Maria through Path, she helped me move into a new role where I doubled my salary"
                   </h2>
-                  <p className='mb-8 text-xl tracking-tight'>
-                  Turn life's uncertainties into stepping-stones to growth. Embark on your Pathio journey today and conquer life's crossroads with unwavering confidence.
+                  <p className='mb-8 text-2xl font-light tracking-tight'>
+                  <span className="italic">Tim</span>, Head of User Experience at Loom
                   </p>
-                  <a
-                    className='inline-block px-5 py-4 text-white font-semibold tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200'
-                    href='#'
-                  >
-                    Begin Your Journey
-                  </a>
+                  <SurveyButton />
                 </div>
               </div>
               <div className='w-full md:w-1/2 p-8'>

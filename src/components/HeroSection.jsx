@@ -1,6 +1,7 @@
 import CustomerImage from "../images/CustomerImage.png";
 import AvatarImage from "../images/big-avatar.jpg";
 import BackgroundGradientImage from "../images/BackgroundGradientImage.jpg";
+import SurveyButton from "./SurveyButton.jsx";
 
 
 export default function HeroSection(){
@@ -12,16 +13,11 @@ export default function HeroSection(){
             Navigate Life's Crossroads with Confidence
           </h1>
           <p className='mb-10 max-w-xl mx-auto'>
-          Unlock your potential with Pathio. Our platform connects you with the right coach, mentor, or content, tailored to your needs, helping you thrive in work and life.
+          Unlock your potential with Pathio. Our platform connects you with the right coach tailored to your needs, helping you take your next step with confidence. 
           </p>
-          <a
-            className='inline-block mb-6 px-5 py-4 text-white font-semibold tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200'
-            href='#'
-          >
-            Start Your Journey
-          </a>
-          <p className='mb-20 text-gray-600 text-sm tracking-tight'>
-            No Credit Card Required / Cancel Anytime
+          <SurveyButton />
+          <p className='mt-4 mb-20 text-gray-600 text-sm tracking-tight'>
+            First session for free
           </p>
         </div>
         <div className='max-w-6xl mx-auto'>

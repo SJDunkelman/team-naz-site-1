@@ -1,6 +1,7 @@
 import { useState } from "react"
 // import Logo from "../images/logo.png";
 import { TWITTER_URL, MAILTO_LINK } from "../consts";
+import SurveyButton from "./SurveyButton.jsx";
 
 export default function NavBar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -38,12 +39,7 @@ export default function NavBar() {
                     </div>
                     <div className='w-auto hidden lg:block'>
                       <div className='inline-block'>
-                        <a
-                          className='inline-block px-5 py-3 text-white font-semibold text-center tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200'
-                          href='#'
-                        >
-                          Begin Your Journey
-                        </a>
+                        <SurveyButton /> 
                       </div>
                     </div>
 
@@ -130,12 +126,7 @@ export default function NavBar() {
                   </ul>
                 </div>
                 <div className='flex flex-col justify-end w-full pb-8'>
-                  <a
-                    className='inline-block px-5 py-3 text-white font-semibold text-center tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200'
-                    href='#'
-                  >
-                    Begin Your Journey
-                  </a>
+                  <SurveyButton />
                 </div>
               </div>
             </nav>

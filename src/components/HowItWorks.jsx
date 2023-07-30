@@ -1,6 +1,7 @@
 import BenefitLogo1 from '../images/account.svg';
 import BenefitLogo2 from '../images/tool.svg';
 import BenefitLogo3 from '../images/start.svg';
+import SurveyButton from './SurveyButton';
 
 
 export default function HowItWorks() {
@@ -24,7 +25,7 @@ export default function HowItWorks() {
                     alt=''
                   />
                   <h3 className='mb-4 text-xl font-semibold tracking-tight'>
-                  Tailor-Made Guidance for Your Unique Journey
+                  Figure out what you want to do next
                   </h3>
                   <p className='text-gray-600 tracking-tight'>
                   Experience the Precision of Being Paired with the Ideal Coach or Mentor, Catering Specifically to Your Aspirations and Challenges.
@@ -39,7 +40,7 @@ export default function HowItWorks() {
                     alt=''
                   />
                   <h3 className='mb-4 text-xl font-semibold tracking-tight'>
-                  Inspiring Content that Fuels Your Growth
+                  Grow into a new role with confidence
                   </h3>
                   <p className='text-gray-600 tracking-tight'>
                   Dive into a Vast Ocean of Personalized Content, Meticulously Curated to Propel Your Personal and Professional Evolution.
@@ -54,7 +55,7 @@ export default function HowItWorks() {
                     alt=''
                   />
                   <h3 className='mb-4 text-xl font-semibold tracking-tight'>
-                  Navigate Life's Crossroads with Unshakable Confidence
+                  Switch jobs or careers successfully
                   </h3>
                   <p className='text-gray-600 tracking-tight'>
                   Leverage Pathio's Expertise to Steer Through Life's Crossroads with Certainty, Empowering You to Make Confident Decisions.
@@ -63,12 +64,7 @@ export default function HowItWorks() {
               </div>
             </div>
             <div className='flex flex-row justify-center'>
-              <a
-                className='inline-block mx-auto px-5 py-4 text-white font-semibold tracking-tight bg-indigo-500 hover:bg-indigo-600 rounded-lg focus:ring-4 focus:ring-indigo-300 transition duration-200'
-                href='#'
-              >
-                Begin Your Journey
-              </a>
+              <SurveyButton />
             </div>
           </div>
         </section>
