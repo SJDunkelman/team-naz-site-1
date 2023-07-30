@@ -1,6 +1,5 @@
 import CustomerImage from "../images/CustomerImage.png";
 import AvatarImage from "../images/big-avatar.jpg";
-import BackgroundGradientImage from "../images/BackgroundGradientImage.jpg";
 import SurveyButton from "./SurveyButton.jsx";
 
 

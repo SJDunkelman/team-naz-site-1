@@ -1,4 +1,3 @@
-import React from "react";
 import pkg from '@typeform/embed-react';
 const { PopupButton } = pkg;
 

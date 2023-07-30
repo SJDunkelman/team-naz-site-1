@@ -1,6 +1,6 @@
 import { useState } from "react"
 // import Logo from "../images/logo.png";
-import { TWITTER_URL, MAILTO_LINK } from "../consts";
+import { MAILTO_LINK } from "../consts";
 import SurveyButton from "./SurveyButton.jsx";
 
 export default function NavBar() {
@@ -28,9 +28,6 @@ export default function NavBar() {
                       <ul className='flex items-center mr-8'>
                         <li className='mr-14 font-medium hover:text-gray-900 tracking-tight'>
                           <a href='#how-it-works'>How it Works</a>
-                        </li>
-                        <li className='mr-14 font-medium hover:text-gray-900 tracking-tight'>
-                          <a href={TWITTER_URL}>Twitter</a>
                         </li>
                         <li className='mr-8 font-medium hover:text-gray-900 tracking-tight border-r pr-8'>
                           <a href={MAILTO_LINK}>Contact Us</a>
@@ -116,9 +113,6 @@ export default function NavBar() {
                   <ul>
                     <li className='mb-12 font-medium hover:text-gray-900 tracking-tight'>
                       <a href='#how-it-works'>How it Works</a>
-                    </li>
-                    <li className='mb-12 font-medium hover:text-gray-900 tracking-tight'>
-                      <a href={TWITTER_URL}>Twitter</a>
                     </li>
                     <li className='mb-12 font-medium hover:text-gray-900 tracking-tight'>
                       <a href={MAILTO_LINK}>Contact Us</a>
